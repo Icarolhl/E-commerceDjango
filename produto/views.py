@@ -48,7 +48,6 @@ class AdicionarAoCarrinho(View):
         variacao_nome = variacao.nome or ''
         preco_unitario = variacao.preco
         preco_unitario_promocional = variacao.preco_promocional
-        quantidade = 1
         slug = produto.slug
         imagem = produto.imagem
 
