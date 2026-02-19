@@ -41,7 +41,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'debug_toolbar',  # remover em produção
 
     'crispy_forms',
 
@@ -57,11 +56,6 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-
-
-
-
-    "debug_toolbar.middleware.DebugToolbarMiddleware",  # remover em produção
 ]
 
 ROOT_URLCONF = 'loja.urls'
@@ -160,7 +154,3 @@ SESSION_SAVE_EVERY_REQUEST = False
 
 # Serializer - Padrão JSON
 # SESSION_SERIALIZER = 'django.contrib.sessions.serializers.PickleSerializer'
-
-INTERNAL_IPS = [
-    "127.0.0.1",
-]
