@@ -2,6 +2,10 @@
 
 This repository contains a Django-based e-commerce application (project root: `loja`). It's a small online store with product listing, cart, orders, user profiles, and admin features.
 
+## Disclaimer
+
+This project was created for study purposes and is not ready for production use.
+
 ## Features
 
 - Product listing with variations and images
