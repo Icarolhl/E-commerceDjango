@@ -71,8 +71,3 @@ python manage.py test
 
 - Open an issue for bugs or feature requests.
 - Create a branch, add tests when applicable, and submit a pull request.
-
-## Notes & TODOs
-
-- Consider adding `requirements.txt` and a `.env.example` for environment variables.
-- Add deployment instructions and production settings (e.g., static collection, allowed hosts, secure settings).
