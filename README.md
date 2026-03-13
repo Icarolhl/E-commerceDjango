@@ -53,11 +53,6 @@ python manage.py runserver
 
 - The project ships with `db.sqlite3` for development. For production, switch to PostgreSQL or another production-ready DB and update `loja/settings.py`.
 
-## Running tests
-
-```powershell
-python manage.py test
-```
 
 ## Project structure (high level)
 
